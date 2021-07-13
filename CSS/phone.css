@@ -1,0 +1,76 @@
+/* Navigation */
+#navbar{
+    flex-direction: column; /*so that the content of navbar comes below the logo and in center when the size of the screen decreases*/
+}
+#navbar ul li a{
+    padding: 0px 3.5px;
+    font-size: 1rem;
+    margin: 3.7px;
+}
+
+/* Home Section */
+#home{
+    height: 360px;
+    padding: 3px 50px;
+}
+#home::before{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+#home p{
+    font-size: 0.9rem;
+}
+#home h1{
+    font-size: 2.2rem;
+}
+/* Services Section */
+.services{
+    flex-direction: column;
+    /* flex-wrap: wrap; */  /*we are not using this because the sizer of the boxes is not same */
+}
+/* Services section */
+.services #box1, .services #box2{
+    margin-bottom: 10px;
+}
+.services #img2{
+    width: 225px;
+    margin: auto;
+}
+
+/* Clients Section */
+#clients{
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+#client-section{
+    height: 239px;
+}
+#client-section::before{
+    height: 231px;
+}
+
+.client-item{
+    padding: 6px;
+}
+.client-item img{
+    width: 73.3px;
+    height: auto;  /*here we have kept height at auto so that it changes according to the change in width*/
+    padding: 0px 4px;
+}
+/* Contact Us section */
+#contact{
+    margin-top: -8px;
+}
+/* Footer */
+
+/* Utility Classes */
+.h-primary{
+    font-size: 1.8rem;
+    padding-top: 13px;
+
+}
+.btn{
+    font-size: 0.75rem;
+    padding: 3.5px 5.5px;
+}
